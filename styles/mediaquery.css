@@ -1,0 +1,15 @@
+@media (min-width: 1008px){
+    .menu > ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu > ul > li{
+        margin: 25px;
+        letter-spacing: 2px;
+    }
+
+    .menu > ul > li:hover{
+        color: #fff;
+    }
+}
