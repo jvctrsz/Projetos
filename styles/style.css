@@ -5,10 +5,16 @@
     color: #fff;
 }
 
-#card-box{
+/* HOME PAGE */
+
+.card-content{
+    display: none;
     background-image: url(./images/card-background.jpg);
     background-size: cover;
     background-position: center;
+}
+
+#card-box{
     width:100vw;
     height: 100vh;
     display: flex;
@@ -33,8 +39,12 @@
     align-items: center;
 }
 
-.menu > ul > li {
-    list-style: none;
+.menu > .menuList {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu > .menuList > .list {
     padding: 20px;
     cursor: pointer;
     font-family: "Bebas Neue", sans-serif ;
@@ -42,8 +52,43 @@
     letter-spacing: 2px;
     color: #c4c4c4;
     text-align: center;
+    cursor: pointer;
+    background-color: #00000000;
+    border: none;
 }
 
-.menu > ul > li:hover{
+.menu > .menuList > .list{
     color: #e4e4e4;
+}
+
+/* ABOUT MENU */
+
+.about-content{
+    background-image: url(./images/card-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;    
+}
+
+.about-title{
+    align-self: start;
+    margin: 25px 0px;
+}
+
+.description{
+    background-color: rgba(48, 44, 44, 0.473);
+    border: 0px solid rgb(48, 44, 44);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.description > p {
+    padding: 5px 0px;
+    letter-spacing: 1.2px;
 }
