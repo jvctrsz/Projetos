@@ -64,6 +64,8 @@
 /* ABOUT MENU */
 
 .about-content{
+    width: 100vw;
+    height: 100vh;
     background-image: url(./images/card-background.jpg);
     background-size: cover;
     background-position: center;
@@ -73,12 +75,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;    
+    max-height: 100vh;
+    padding: 20px;
+    
 }
 
 .about-title{
     align-self: start;
-    margin: 25px 0px;
+    padding: 25px 0px;
 }
 
 .description{
@@ -86,9 +90,12 @@
     border: 0px solid rgb(48, 44, 44);
     border-radius: 10px;
     padding: 20px;
+    overflow-x: scroll;
+    
 }
 
 .description > p {
+    text-align: justify;
     padding: 5px 0px;
     letter-spacing: 1.2px;
 }
