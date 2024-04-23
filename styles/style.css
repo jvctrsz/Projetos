@@ -104,7 +104,6 @@
 /* CONTACTS */
 
 .contacts-content{
-    width: 100vw;
     min-height: 100vh;
     background-image: url(./images/card-background.jpg);
     background-size: cover;
@@ -128,14 +127,13 @@
 }
 
 .contacts{
-    width: 100vw;
+    max-width: 200px;
     display: flex;
     flex-direction: column;
     padding: 50px 0px;
 }
 
 .icons{
-    width: 100vw;
     display: flex;
     align-items: center;
     padding: 15px;
@@ -143,4 +141,8 @@
 
 .image, .info{
     padding: 0px 5px;
+}
+
+.links {
+    text-decoration: none;
 }
