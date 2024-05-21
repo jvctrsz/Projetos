@@ -1,15 +1,12 @@
-let btnAbout = document.querySelector('#aboutId')
-let btnWorks = document.querySelector('#worksId')
-let btnContacts = document.querySelector('#contactsId')
-
+let cardSection = document.querySelectorAll('section')[0]
 let aboutSection = document.querySelectorAll('section')[2]
-let worksSection = document.querySelectorAll('section')[6]
 let contactSection = document.querySelectorAll('section')[4]
+let worksSection = document.querySelectorAll('section')[6]
 
-let activeElement = document.querySelector('.active');
-console.log(activeElement)
+
 
 function activeCheck(){
+    let activeElement = document.querySelector('.active');
     if (activeElement) {
         activeElement.classList.remove("active");
       }
@@ -28,4 +25,8 @@ function worksMenu(){
 function contactMenu(){
     contactSection.classList.add('active')
     activeCheck()
+}
+
+function cardMenu(){
+    window.location.reload();
 }
