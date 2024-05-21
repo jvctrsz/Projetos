@@ -8,7 +8,6 @@
 /* HOME PAGE */
 
 .card-content{
-    display: none;
     background-image: url(./images/card-background.jpg);
     background-size: cover;
     background-position: center;
@@ -64,12 +63,12 @@
 /* ABOUT MENU */
 
 .about-content{
-    display: none;
     width: 100vw;
     height: 100vh;
     background-image: url(./images/card-background.jpg);
     background-size: cover;
     background-position: center;
+    display: none;
 }
 
 .about-box{
@@ -91,8 +90,10 @@
     border: 0px solid rgb(48, 44, 44);
     border-radius: 10px;
     padding: 20px;
-    overflow-x: scroll;
-    
+}
+
+.description::-webkit-scrollbar {
+    display: none;
 }
 
 .description > p {
@@ -104,11 +105,11 @@
 /* CONTACTS */
 
 .contacts-content{
-    display: none;
     min-height: 100vh;
     background-image: url(./images/card-background.jpg);
     background-size: cover;
     background-position: center;
+    display: none;
 }
 
 .contacts-box{
@@ -123,29 +124,35 @@
     padding: 25px 0px;
 }
 
-.guide > p{
+.guide{
+    max-width: 450px;
     text-align: justify;
 }
 
 .contacts{
-    max-width: 200px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     padding: 50px 0px;
 }
 
-.icons{
-    display: flex;
-    align-items: center;
-    padding: 15px;
-}
-
-.image, .info{
-    padding: 0px 5px;
-}
-
 .links {
+    padding: 15px;
     text-decoration: none;
+}
+
+.icons{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.icon-image > img{
+    width: 48px;
+}
+
+.info{
+    padding: 20px;
 }
 
 /* WORKS */
@@ -159,6 +166,7 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
+    display: none;
 }
 
 .works-title{
@@ -174,16 +182,21 @@
     border: 0px solid rgb(48, 44, 44);
     border-radius: 10px;
     padding: 20px;
-    overflow: scroll;
-    
+    overflow-y: scroll;
+}
+
+.photos-container::-webkit-scrollbar{
+    display: none;
 }
 
 .photos{
     max-height: 935px;
+    display: flex;
+    flex-direction: column;
 }
 
 .image{
-    max-width: 300px;
+    width: 300px;
     margin-bottom: 20px;   
 }
 
@@ -194,3 +207,4 @@
 .image > a:visited{
     width: 100%;
 }
+
