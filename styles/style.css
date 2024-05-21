@@ -7,7 +7,7 @@
 
 /* HOME PAGE */
 
-.card-content{
+#card-content{
     background-image: url(./images/card-background.jpg);
     background-size: cover;
     background-position: center;
@@ -62,13 +62,12 @@
 
 /* ABOUT MENU */
 
-.about-content{
+#about-content{
     width: 100vw;
     height: 100vh;
     background-image: url(./images/card-background.jpg);
     background-size: cover;
     background-position: center;
-    display: none;
 }
 
 .about-box{
@@ -104,12 +103,11 @@
 
 /* CONTACTS */
 
-.contacts-content{
+#contacts-content{
     min-height: 100vh;
     background-image: url(./images/card-background.jpg);
     background-size: cover;
     background-position: center;
-    display: none;
 }
 
 .contacts-box{
@@ -157,7 +155,7 @@
 
 /* WORKS */
 
-.works-content{
+#works-content{
     background-image: url(./images/card-background.jpg);
     background-size: cover;
     background-position: center;
@@ -166,7 +164,6 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    display: none;
 }
 
 .works-title{
@@ -181,7 +178,7 @@
     background-color: rgba(48, 44, 44, 0.473);
     border: 0px solid rgb(48, 44, 44);
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 20px;
     overflow-y: scroll;
 }
 
@@ -196,8 +193,8 @@
 }
 
 .image{
-    width: 300px;
-    margin-bottom: 20px;   
+    width: 280px;
+    margin: 10px 10px;   
 }
 
 .image > a > img{
@@ -208,3 +205,10 @@
     width: 100%;
 }
 
+.section-visibility{
+    display: none;
+}
+
+.active{
+    display: block;
+}
