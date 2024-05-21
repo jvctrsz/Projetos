@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #fff;
+    
 }
 
 /* HOME PAGE */
@@ -89,6 +90,7 @@
     border: 0px solid rgb(48, 44, 44);
     border-radius: 10px;
     padding: 20px;
+    overflow-y: scroll;
 }
 
 .description::-webkit-scrollbar {
@@ -105,6 +107,7 @@
 
 #contacts-content{
     min-height: 100vh;
+    max-width: 100vw;
     background-image: url(./images/card-background.jpg);
     background-size: cover;
     background-position: center;
@@ -123,12 +126,11 @@
 }
 
 .guide{
-    max-width: 450px;
     text-align: justify;
+    
 }
 
 .contacts{
-    max-width: 300px;
     display: flex;
     flex-direction: column;
     padding: 50px 0px;
