@@ -112,6 +112,66 @@
     font-weight: bold;
 }
 
+/* WORKS */
+
+#works-content{
+    background-image: url(./images/card-background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.works-title{
+    padding: 50px 0px;
+    font-family: "Orbitron", Arial;
+    font-size: 20px;
+    
+}
+
+.photos-container{
+    min-width: 320px;
+    background-color: rgba(48, 44, 44, 0.473);
+    border: 0px solid rgb(48, 44, 44);
+    border-radius: 10px;
+    padding: 20px 20px;
+    overflow-y: scroll;
+}
+
+.photos-container::-webkit-scrollbar{
+    display: none;
+}
+
+.photos{
+    max-height: 935px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    width: 280px;
+    margin: 10px 10px;   
+}
+
+.image > a > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.image > a:visited{
+    width: 100%;
+}
+
+.section-visibility{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
 /* CONTACTS */
 
 #contacts-content{
@@ -180,64 +240,4 @@
 
 .image-tutorial{
     padding: 10px 0px;
-}
-
-/* WORKS */
-
-#works-content{
-    background-image: url(./images/card-background.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-}
-
-.works-title{
-    padding: 50px 0px;
-    font-family: "Orbitron", Arial;
-    font-size: 20px;
-    
-}
-
-.photos-container{
-    min-width: 320px;
-    background-color: rgba(48, 44, 44, 0.473);
-    border: 0px solid rgb(48, 44, 44);
-    border-radius: 10px;
-    padding: 20px 20px;
-    overflow-y: scroll;
-}
-
-.photos-container::-webkit-scrollbar{
-    display: none;
-}
-
-.photos{
-    max-height: 935px;
-    display: flex;
-    flex-direction: column;
-}
-
-.image{
-    width: 280px;
-    margin: 10px 10px;   
-}
-
-.image > a > img{
-    width: 100%;
-    border-radius: 10px;
-}
-.image > a:visited{
-    width: 100%;
-}
-
-.section-visibility{
-    display: none;
-}
-
-.active{
-    display: block;
 }
