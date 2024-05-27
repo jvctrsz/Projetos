@@ -1,7 +1,7 @@
 let cardSection = document.querySelectorAll('section')[0]
 let aboutSection = document.querySelectorAll('section')[2]
-let contactSection = document.querySelectorAll('section')[4]
-let worksSection = document.querySelectorAll('section')[6]
+let worksSection = document.querySelectorAll('section')[4]
+let contactSection = document.querySelectorAll('section')[6]
 
 
 
@@ -31,5 +31,4 @@ function contactMenu() {
 function cardMenu() {
     activeCheck()
     cardSection.classList.add('active')
-
 }

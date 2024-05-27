@@ -164,6 +164,24 @@
     padding: 20px;
 }
 
+.title-tutorial h2{
+    padding: 20px 0px;
+    font-family: "Orbitron", Arial;
+}
+
+.title-tutorial h3{
+    padding: 20px 0px;
+}
+
+.text-tutorial p{
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+.image-tutorial{
+    padding: 10px 0px;
+}
+
 /* WORKS */
 
 #works-content{
