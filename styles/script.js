@@ -5,28 +5,31 @@ let worksSection = document.querySelectorAll('section')[6]
 
 
 
-function activeCheck(){
+
+function activeCheck() {
     let activeElement = document.querySelector('.active');
     if (activeElement) {
         activeElement.classList.remove("active");
-      }
+    }
 }
 
-function aboutMenu(){
+function aboutMenu() {
     aboutSection.classList.add('active')
     activeCheck()
 }
 
-function worksMenu(){
+function worksMenu() {
     worksSection.classList.add('active')
     activeCheck()
 }
 
-function contactMenu(){
-    contactSection.classList.add('active')
+function contactMenu() {
     activeCheck()
+    contactSection.classList.add('active')
 }
 
-function cardMenu(){
-    window.location.reload();
+function cardMenu() {
+    activeCheck()
+    cardSection.classList.add('active')
+
 }
