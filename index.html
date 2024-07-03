@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <section class="section-visibility active">
+    <section id="card-section" class="section-visibility active">
         <section id="card-content">
             <div id="card-box">
                 <div class="card-title">
@@ -36,7 +36,7 @@
         </section>
     </section>
 
-    <section class="section-visibility">
+    <section id="about-section" class="section-visibility">
         <section id="about-content">
             <div class="about-box">
                 <div class="about-title">
@@ -64,7 +64,7 @@
         </section>
     </section>
 
-    <section class="section-visibility">
+    <section id="works-section" class="section-visibility">
         <section id="works-content">
             <div class="works-title">
                 <h2>Trabalhos</h2>
@@ -127,14 +127,14 @@
         </section>
     </section>
 
-    <section class="section-visibility">
+    <section id="contacts-section" class="section-visibility">
         <section id="contacts-content">
             <div class="contacts-box">
                 <div class="contacts-title">
                     <h2>Entre em contato!!</h2>
                 </div>
                 <div class="guide">
-                    <p>Para realizar seu orçamento entre em contato através das opçoões abaixo e caso possua alguma
+                    <p>Para realizar seu orçamento entre em contato através das opções abaixo e caso possua alguma
                         dúvida
                         na hora de como enviar seu orçamento, estarei disponibilizando um guia no final da pagina para
                         auxiliar. Obrigado!
@@ -173,14 +173,16 @@
                     </div>       
                     <div class="photoContainer-tutorial">
                         <h3>Referencia abaixo</h3>
-                        <div class="image-tutorial">
-                            <div class="img-tuto">
-                                <img src="./styles/images/imagem-tutorial-1.png" alt="" style="width: 300px;">
+                        <div class="photo-tutorial">
+                            <div class="image-tutorial">
+                                <div class="img-tuto">
+                                    <img src="./styles/images/imagem-tutorial-1.png" alt="" style="width: 300px;">
+                                </div>
                             </div>
-                        </div>
-                        <div class="image-tutorial">
-                            <div class="img-tuto">
-                                <img src="./styles/images/imagem-tutorial-2.png" alt="" style="width: 300px;">
+                            <div class="image-tutorial">
+                                <div class="img-tuto">
+                                    <img src="./styles/images/imagem-tutorial-2.png" alt="" style="width: 300px;">
+                                </div>
                             </div>
                         </div>
                         <h3>Nesse caso pode haver alteração no valor final.</h3>
@@ -193,10 +195,9 @@
                         <h3>Isso ajudará a ter as respostas mais rápidas e valores mais precisos em suas tattos!</h3>
                     </div>     
                 </div>
-
-                <div onclick="cardMenu()" class="btnHome">
-                    <div>Voltar para o menu inicial</div>
-                </div>
+            </div>
+            <div onclick="cardMenu()" class="btnHome">
+                <span>Voltar para o menu inicial</span>
             </div>
         </section>
     </section>

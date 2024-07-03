@@ -35,6 +35,24 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    .contacts-box{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .contacts-box > div {
+        width: 650px;
+    }
+
+    .photo-tutorial{
+        display: flex;
+    }
+
+    .image-tutorial{
+        padding: 10px;
+    }
 }
 
 
