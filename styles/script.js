@@ -3,9 +3,6 @@ let aboutSection = document.querySelectorAll('section')[2]
 let worksSection = document.querySelectorAll('section')[4]
 let contactSection = document.querySelectorAll('section')[6]
 
-
-
-
 function activeCheck() {
     let activeElement = document.querySelector('.active');
     if (activeElement) {
@@ -32,3 +29,4 @@ function cardMenu() {
     activeCheck()
     cardSection.classList.add('active')
 }
+
