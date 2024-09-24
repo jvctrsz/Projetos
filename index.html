@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ANIMAÇÃO -->
+    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
     <!-- CSS -->
+    <link rel="stylesheet" href="./styles/animations.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/mediaquery.css">
     <!-- FONTS -->
@@ -12,8 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&display=swap"
         rel="stylesheet">
-    <!-- JAVASCRIPT -->
-
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>JpyoArtTattoo</title>
 </head>
 
@@ -21,12 +23,12 @@
     <section id="card-section" class="section-visibility active">
         <section id="card-content">
             <div id="card-box">
-                <div class="card-title">
+                <div class="card-title cssanimation fadeInTop">
                     <h1>Julia Pedrozo</h1>
                     <h2>TATTOO</h2>
                 </div>
                 <div class="menu">
-                    <div class="menuList">
+                    <div class="menuList cssanimation fadeInBottom">
                         <button onclick="aboutMenu()" id="aboutId" class="list">Sobre mim</button>
                         <button onclick="worksMenu()" id="worksId" class="list">Trabalhos</button>
                         <button onclick="contactMenu()" id="contactsId" class="list">Contatos</button>
@@ -40,9 +42,9 @@
         <section id="about-content">
             <div class="about-box">
                 <div class="about-title">
-                    <h2>Sobre mim!</h2>
+                    <h2 class="cssanimation typing">Sobre mim!</h2>
                 </div>
-                <div class="description">
+                <div class="description cssanimation fadeIn">
                     <p>Olá! Eu sou a Julia Pedrozo, atualmente tenho 21 anos e estou no ramo da tatuagem há 2 anos.
                         Eu sempre tive muito envolvimento com a arte, dês de muito jovem sempre fui a artista em meus
                         meios sociais. Dessa forma sempre tive muito interesse em trabalhar em algo que envolvesse o
@@ -73,89 +75,89 @@
     <section id="works-section" class="section-visibility">
         <section id="works-content">
             <div class="works-title">
-                <h2>Trabalhos!</h2>
+                <h2 class="cssanimation typing">Trabalhos!</h2>
             </div>
-            <div class="photos-container">
+            <div class="photos-container cssanimation fadeIn">
                 <div class="photos">
                     <div class="image">
-                        <a href="./styles/images/work-images/image-1.jpg" target="_blank"><img src="./styles/images/work-images/image-1.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-1.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-1.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-2.jpg" target="_blank"><img src="./styles/images/work-images/image-2.jpg"
-                                alt="" ta></a>
+                        <a href="./styles/images/work-images/image-2.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-2.jpg" alt="" ta></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-3.jpg" target="_blank"><img src="./styles/images/work-images/image-3.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-3.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-3.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-4.jpg" target="_blank"><img src="./styles/images/work-images/image-4.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-4.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-4.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-5.jpg" target="_blank"><img src="./styles/images/work-images/image-5.jpg"
-                                alt="" ta></a>
+                        <a href="./styles/images/work-images/image-5.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-5.jpg" alt="" ta></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-6.jpg" target="_blank"><img src="./styles/images/work-images/image-6.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-6.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-6.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-7.jpg" target="_blank"><img src="./styles/images/work-images/image-7.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-7.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-7.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-8.jpg" target="_blank"><img src="./styles/images/work-images/image-8.jpg"
-                                alt="" ta></a>
+                        <a href="./styles/images/work-images/image-8.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-8.jpg" alt="" ta></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-9.jpg" target="_blank"><img src="./styles/images/work-images/image-9.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-9.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-9.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-10.jpg" target="_blank"><img src="./styles/images/work-images/image-10.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-10.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-10.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-11.jpg" target="_blank"><img src="./styles/images/work-images/image-11.jpg"
-                                alt="" ta></a>
+                        <a href="./styles/images/work-images/image-11.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-11.jpg" alt="" ta></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-12.jpg" target="_blank"><img src="./styles/images/work-images/image-12.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-12.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-12.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-13.jpg" target="_blank"><img src="./styles/images/work-images/image-13.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-13.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-13.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-14.jpg" target="_blank"><img src="./styles/images/work-images/image-14.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-14.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-14.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-15.jpg" target="_blank"><img src="./styles/images/work-images/image-15.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-15.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-15.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-16.jpg" target="_blank"><img src="./styles/images/work-images/image-16.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-16.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-16.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-17.jpg" target="_blank"><img src="./styles/images/work-images/image-17.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-17.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-21.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-18.jpg" target="_blank"><img src="./styles/images/work-images/image-18.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-18.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-18.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-19.jpg" target="_blank"><img src="./styles/images/work-images/image-19.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-19.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-19.jpg" alt=""></a>
                     </div>
                     <div class="image">
-                        <a href="./styles/images/work-images/image-20.jpg" target="_blank"><img src="./styles/images/work-images/image-20.jpg"
-                                alt=""></a>
+                        <a href="./styles/images/work-images/image-20.jpg" target="_blank"><img
+                                src="./styles/images/work-images/image-20.jpg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -167,19 +169,19 @@
 
     <section id="contacts-section" class="section-visibility">
         <section id="contacts-content">
-            <div class="contacts-box">
+            <div class="contacts-box cssanimation fadeIn">
                 <div class="contacts-title">
-                    <h2>Entre em contato!!</h2>
+                    <h2 class="cssanimation typing">Entre em contato!!</h2>
                 </div>
-                <div class="guide">
+                <div class="guide cssanimation fadeIn">
                     <p>Para realizar seu orçamento entre em contato através das opções abaixo e caso possua alguma
                         dúvida
                         na hora de como enviar seu orçamento, estarei disponibilizando um guia no final da pagina para
                         auxiliar. Obrigado!
                     </p>
                 </div>
-                <div class="contacts">
-                    <a class="links"
+                <div class="contacts cssanimation fadeInLeft">
+                    <a class="links "
                         href="https://wa.me/5566996729965?text=Olá!%20gostaria%20de%20realizar%20um%20orçamento!">
                         <div class="icons">
                             <div class="icon-image">
@@ -206,21 +208,21 @@
                         <h3>Como mandar seus orçamentos corretamente!</h3>
                     </div>
                     <div class="text-tutorial">
-                        <p>1. Mande o local que irá tatuar, tamanho em cm e uma referência da arte que irá fazer.</p>
-                        <p>2. Caso não saiba o tamanho em cm, mande uma foto do local circulando a área que deseja que a
+                        <p>1. Mande o local que irá tatuar, tamanho em centímetros e uma referência da arte que irá fazer.</p>
+                        <p>2. Caso não saiba o tamanho em centímetros, mande uma foto do local circulando a área que deseja que a
                             tatuagem pegue, assim terei uma ideia da média de tamanho que deseja.</p>
                     </div>
                     <div class="photoContainer-tutorial">
                         <h3>Referencia abaixo</h3>
-                        <div class="photo-tutorial">
+                        <div class="photo-tutorial cssanimation fadeInLeft">
                             <div class="image-tutorial">
                                 <div class="img-tuto">
-                                    <img src="./styles/images/imagem-tutorial-1.png" alt="" style="width: 300px;">
+                                    <img src="./styles/images/imagem-tutorial-1.png" alt="">
                                 </div>
                             </div>
                             <div class="image-tutorial">
                                 <div class="img-tuto">
-                                    <img src="./styles/images/imagem-tutorial-2.png" alt="" style="width: 300px;">
+                                    <img src="./styles/images/imagem-tutorial-2.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -243,7 +245,7 @@
         </section>
     </section>
 
-    <script defer src="./styles/script.js"></script>
+    <script src="./styles/script.js"></script>
 </body>
 
 </html>

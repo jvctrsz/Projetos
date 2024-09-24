@@ -1,0 +1,1 @@
+TweenMax.from(".fadeIn", 1, {alpha:0});

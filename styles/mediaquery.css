@@ -1,14 +1,31 @@
+@media (max-width: 680px){
+   .photos-container{
+    max-height: 627px;
+   }
+}
+
 @media (min-width: 680px){
     .description{
         max-width: 660px;
     }
     
     .photos-container{
-        max-width: 640px;
+        max-width: 680px;
+        min-height: 680px;
+        padding: 40px 0px;
     }
     .photos{
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
+        gap: 40px;
+    }
+    .photo-tutorial{
+        display: flex;
+    }
+
+    .image-tutorial{
+        padding: 10px;
     }
 }
 
@@ -29,36 +46,17 @@
 
 
     .photos-container{
-        max-width: 940px;
+        max-width: 1000px;
     }
     .photos{
         flex-direction: row;
         flex-wrap: wrap;
     }
-
-    .contacts-box{
-        display: flex;
-        align-items: center;
-
-    }
-
-    .contacts-box > div {
-        width: 650px;
-    }
-
-    .photo-tutorial{
-        display: flex;
-    }
-
-    .image-tutorial{
-        padding: 10px;
-    }
 }
 
-
-@media (min-width: 1260px){
+@media (min-width: 1366px){
     .photos-container{
-        max-width: 1240px;
+        max-width: 1320px;
     }
     .photos{
         flex-direction: row;
