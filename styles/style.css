@@ -7,8 +7,8 @@
 
 /* HOME PAGE */
 
-#card-content{
-    background-image: url(./images/card-background.jpg);
+body{
+    background-image: url(./images/card-background.svg);
     background-size: cover;
     background-position: center;
 }
@@ -74,9 +74,6 @@
 #about-content{
     width: 100vw;
     height: 100vh;
-    background-image: url(./images/card-background.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .about-box{
@@ -139,9 +136,6 @@
 /* WORKS */
 
 #works-content{
-    background-image: url(./images/card-background.jpg);
-    background-size: cover;
-    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -204,9 +198,6 @@
 #contacts-content{
     min-height: 100vh;
     max-width: 100vw;
-    background-image: url(./images/card-background.jpg);
-    background-size: cover;
-    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
